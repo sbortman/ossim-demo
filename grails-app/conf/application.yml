@@ -152,18 +152,18 @@ psm-view-params:
     maxY: -42.7825465458196
   overlays:
   - filename:
-    - '/System/Volumes/Data/ossim/psm-test/5V090205M0001912264B220000100072M_001508507.ntf'
+    - ./ossim-demo-data/psm-test/5V090205M0001912264B220000100072M_001508507.ntf
     title: 'Color'
     url: '/mapView/getTile'
     visible: true
   - filename:
-    - '/System/Volumes/Data/ossim/psm-test/5V090205P0001912264B220000100282M_001508507.ntf'
+    - ./ossim-demo-data/psm-test/5V090205P0001912264B220000100282M_001508507.ntf
     title: 'Pan'
     url: '/mapView/getTile'
     visible: false
   - filename:
-    - '/System/Volumes/Data/ossim/psm-test/5V090205P0001912264B220000100282M_001508507.ntf'
-    - '/System/Volumes/Data/ossim/psm-test/5V090205M0001912264B220000100072M_001508507.ntf'
+    - ./ossim-demo-data/psm-test/5V090205P0001912264B220000100282M_001508507.ntf
+    - ./ossim-demo-data/psm-test/5V090205M0001912264B220000100072M_001508507.ntf
     title: 'PSM'
     url: '/psmView/getPsmTile'
     visible: false
@@ -176,18 +176,18 @@ psm-view-params:
     maxX: -43.594024376172
   overlays:
   - filename:
-    - '/System/Volumes/Data/ossim/2cmv-test/20200618_130630_ssc3d2_0008_basic_panchromatic_dn_file_format.ntf'
+    - ./ossim-demo-data/2cmv-test/20200618_130630_ssc3d2_0008_basic_panchromatic_dn_file_format.ntf
     title: 'Image 1'
     url: '/mapView/getTile'
     visible: true
   - filename:
-    - '/System/Volumes/Data/ossim/2cmv-test/20201111_175126_ssc14d2_0011_basic_panchromatic_dn_file_format.ntf'
+    - ./ossim-demo-data/2cmv-test/20201111_175126_ssc14d2_0011_basic_panchromatic_dn_file_format.ntf
     title: 'Image 2'
     url: '/mapView/getTile'
     visible: false
   - filename:
-    - '/System/Volumes/Data/ossim/2cmv-test/20200618_130630_ssc3d2_0008_basic_panchromatic_dn_file_format.ntf'
-    - '/System/Volumes/Data/ossim/2cmv-test/20201111_175126_ssc14d2_0011_basic_panchromatic_dn_file_format.ntf'
+    - ./ossim-demo-data/2cmv-test/20200618_130630_ssc3d2_0008_basic_panchromatic_dn_file_format.ntf
+    - ./ossim-demo-data/2cmv-test/20201111_175126_ssc14d2_0011_basic_panchromatic_dn_file_format.ntf
     title: '2CMV'
     url: '/twoCMV/get2CMVTile'
     visible: false
@@ -199,18 +199,18 @@ psm-view-params:
   #     maxX: 2.41349635027604
   #   overlays:
   #   - filename:
-  #     - '/System/Volumes/Data/ossim/2cmv-test/16MAY02111606-P1BS-055998375010_01_P013.tiff'
-  #     - '/System/Volumes/Data/ossim/2cmv-test/16MAY02111607-P1BS-055998375010_01_P014.tiff'
+  #     - './ossim-demo-data2cmv-test/16MAY02111606-P1BS-055998375010_01_P013.tiff'
+  #     - './ossim-demo-data2cmv-test/16MAY02111607-P1BS-055998375010_01_P014.tiff'
   #     title: '2CMV'
   #     url: '/twoCMV/get2CMVTile'
   #     visible: false
   #   - filename:
-  #     - '/System/Volumes/Data/ossim/2cmv-test/16MAY02111606-P1BS-055998375010_01_P013.tiff'
+  #     - './ossim-demo-data2cmv-test/16MAY02111606-P1BS-055998375010_01_P013.tiff'
   #     title: 'Image 2'
   #     url: '/mapView/getTile'
   #     visible: false
   #   - filename:
-  #     - '/System/Volumes/Data/ossim/2cmv-test/16MAY02111607-P1BS-055998375010_01_P014.tiff'
+  #     - './ossim-demo-data2cmv-test/16MAY02111607-P1BS-055998375010_01_P014.tiff'
   #     title: 'Image 1'
   #     url: '/mapView/getTile'
   #     visible: true
