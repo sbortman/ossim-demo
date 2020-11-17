@@ -11,3 +11,5 @@ out/
 .settings
 .classpath
 prodDb.mv.db
+ossim-demo-data/
+*.tgz
